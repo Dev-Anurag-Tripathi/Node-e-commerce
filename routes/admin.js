@@ -15,6 +15,7 @@ router.get('/products', adminController.getProducts);
 // /admin/add-product => POST
 router.post('/add-product', adminController.postAddProduct);
 
+//Params is used for dynamic route not query. Query is used for providing additional details.
 router.get('/edit-product/:productId', adminController.getEditProduct);
 
 router.post('/edit-product', adminController.postEditProduct);
