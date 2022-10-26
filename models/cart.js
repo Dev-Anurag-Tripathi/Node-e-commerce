@@ -1,6 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
+//These models are great, Since this was the starting of the project So I have used file based database.
+//This also helps me understanding fs module and how can we read and write a file. Not just that I have use class to create model(Schema) so this is also great.
+
+
 const p = path.join(
   path.dirname(process.mainModule.filename),
   'data',
